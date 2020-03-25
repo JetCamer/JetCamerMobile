@@ -1,0 +1,65 @@
+ion-card-header{
+  padding: 1px !important;
+}
+ion-item{
+  --background: transparent;
+}
+
+ion-list{
+  --background: transparent;
+}
+.logo {
+  width: 75px;
+  height: 75px;
+  padding-top: 20px;
+}
+.box{
+  height: 175px;
+  width: 100%;
+  background: rgba(27,27,31,0.6);
+  padding-top: 20px;
+}
+
+.white-bg-top{
+ background: rgba(255, 255, 255, 0.459);
+ .header {
+    margin-top: -10px; 
+  }
+  .footer{
+    float: bottom;
+  }
+}
+
+.white-bg-bottom{
+  background: rgba(255,0,0,0.5);
+   .footer{
+     height: 500px;
+  }
+}
+ 
+ion-card {
+  --min-height: 15px;
+}
+
+.vertical-center{
+  height: 60px;
+  width: 60px;
+  margin-left: 40%;
+  margin-top: -25px;
+}
+
+.action-button {
+  height: 60px;
+  width: 110px;
+  color: white;
+}
+
+.action-text {
+  font-size: 12.5px !important;
+}
+
+.container{
+  height: 100%;
+  background-image: url(../../assets/icon/2.png);
+}
+

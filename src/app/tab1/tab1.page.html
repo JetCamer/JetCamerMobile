@@ -1,0 +1,26 @@
+<ion-header [translucent]="true">
+  <ion-toolbar style="--background: black;">
+    <ion-title>
+      <ion-img class="logo" src="../../assets/icon/slogan.png"></ion-img>
+    </ion-title>
+    <ion-icon name="menu" slot="start" size="large" (click)="presentPopover($event)" color="light"></ion-icon>
+    <ion-icon name="help-circle-outline" slot="end" size="large" color="light"></ion-icon>
+    <!--
+    <ion-badge slot="end">
+      <ion-text>Rates</ion-text> <ion-icon name="caret-down-sharp" color="success"></ion-icon><ion-icon name="caret-up-sharp" color="danger"></ion-icon><br>
+      <ion-label>0.000 XAF</ion-label><br>
+      <ion-label style="font-size: 9px">aaaa-mm-jj hh:mm</ion-label><br>
+    </ion-badge>
+    -->
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" padding>
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large"></ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <app-explore-container></app-explore-container>
+</ion-content>
