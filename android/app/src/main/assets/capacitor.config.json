@@ -1,8 +1,0 @@
-{
-  "appId": "com.bryan.jetcamer",
-  "appName": "jetCamer",
-  "bundledWebRuntime": false,
-  "npmClient": "npm",
-  "webDir": "www",
-  "cordova": {}
-}
